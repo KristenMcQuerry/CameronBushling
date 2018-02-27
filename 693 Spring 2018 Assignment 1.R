@@ -34,9 +34,6 @@ flights %>% arrange(dep_delay)
 flights %>% arrange(desc(distance/air_time))
 
 # J
-flights %>% arrange(desc(air_time))
-flights %>% arrange(air_time)
-# OR
 flights %>% arrange(desc(distance))
 flights %>% arrange(distance)
 
